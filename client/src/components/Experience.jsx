@@ -48,12 +48,20 @@ const Experience = () => {
               {exp.period}
             </Typography>
           </Box>
+
           <Box sx={{ flex: 1 }}>
             <Box sx={{ display: "flex", alignItems: "center", mb: 0.5 }}>
               <Typography
+                href={exp.link}
                 variant="body1"
                 component="span"
-                sx={{ fontWeight: 600, color: "#ffffff" }}
+                sx={{
+                  fontWeight: 600,
+                  color: "#ffffff",
+                  "&:hover": {
+                    textDecoration: "underline",
+                  },
+                }}
               >
                 {exp.title}
               </Typography>
@@ -61,7 +69,7 @@ const Experience = () => {
                 <Link
                   href={exp.link}
                   sx={{
-                    ml: 1,
+                    ml: 0.6,
                     display: "flex",
                     alignItems: "center",
                     color: "text.primary",

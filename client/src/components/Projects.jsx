@@ -34,7 +34,13 @@ const ProjectCard = ({
           <Typography
             variant="body1"
             component="span"
-            sx={{ fontWeight: 600, color: "#ffffff" }}
+            sx={{
+              fontWeight: 600,
+              color: "#ffffff",
+              "&:hover": {
+                textDecoration: "underline",
+              },
+            }}
           >
             {title}
           </Typography>
@@ -42,7 +48,7 @@ const ProjectCard = ({
             <Link
               href={link}
               sx={{
-                ml: 1,
+                ml: 0.6,
                 display: "flex",
                 alignItems: "center",
                 color: "text.primary",
