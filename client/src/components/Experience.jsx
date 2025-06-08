@@ -4,9 +4,9 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 const Experience = () => {
   const experiences = [
     {
-      period: "Incoming",
+      period: "2025 - Present",
       title: "Software Engineer Intern – Investure",
-      company: "Incoming Summer 2025 SWE Intern.",
+      company: "Summer 2025.",
       description: "",
       technologies: ["React", "Material UI", "FastAPI", "Python"],
       link: "https://www.investure.com/",
@@ -51,32 +51,35 @@ const Experience = () => {
 
           <Box sx={{ flex: 1 }}>
             <Box sx={{ display: "flex", alignItems: "center", mb: 0.5 }}>
-              <Typography
-                href={exp.link}
-                variant="body1"
-                component="span"
-                sx={{
-                  fontWeight: 600,
-                  color: "#ffffff",
-                  "&:hover": {
-                    textDecoration: "underline",
-                  },
-                }}
-              >
-                {exp.title}
-              </Typography>
-              {exp.link && (
+              {exp.link ? (
                 <Link
                   href={exp.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   sx={{
-                    ml: 0.6,
                     display: "flex",
                     alignItems: "center",
-                    color: "text.primary",
+                    color: "#ffffff",
+                    textDecoration: "none",
+                    "&:hover": { textDecoration: "underline" },
                   }}
                 >
-                  <ArrowOutwardIcon sx={{ fontSize: 16 }} />
+                  <Typography
+                    variant="body1"
+                    component="span"
+                    sx={{ fontWeight: 600, color: "#ffffff" }}
+                  >
+                    {exp.title}
+                  </Typography>
+                  <ArrowOutwardIcon sx={{ fontSize: 16, ml: 0.6 }} />
                 </Link>
+              ) : (
+                <Typography
+                  variant="body1"
+                  sx={{ fontWeight: 600, color: "#ffffff" }}
+                >
+                  {exp.title}
+                </Typography>
               )}
             </Box>
             {exp.company && (

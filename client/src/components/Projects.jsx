@@ -1,92 +1,16 @@
 import { Box, Typography, Link } from "@mui/material";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
-const ProjectCard = ({
-  year,
-  logo,
-  title,
-  description,
-  technologies,
-  link,
-}) => {
-  return (
-    <Box sx={{ display: "flex", mb: 3 }}>
-      <Box sx={{ width: "120px", flexShrink: 0, pr: 2 }}>
-        <Typography variant="body2" sx={{ color: "#666666" }}>
-          {year || "Ongoing"}
-        </Typography>
-      </Box>
-      <Box sx={{ flex: 1 }}>
-        <Box sx={{ display: "flex", alignItems: "center", mb: 0.5 }}>
-          {logo && (
-            <Box
-              component="img"
-              src={logo}
-              alt={title}
-              sx={{
-                width: 32,
-                height: 32,
-                mr: 2,
-                objectFit: "contain",
-              }}
-            />
-          )}
-          <Typography
-            variant="body1"
-            component="span"
-            sx={{
-              fontWeight: 600,
-              color: "#ffffff",
-              "&:hover": {
-                textDecoration: "underline",
-              },
-            }}
-          >
-            {title}
-          </Typography>
-          {link && (
-            <Link
-              href={link}
-              sx={{
-                ml: 0.6,
-                display: "flex",
-                alignItems: "center",
-                color: "text.primary",
-              }}
-            >
-              <ArrowOutwardIcon sx={{ fontSize: 16 }} />
-            </Link>
-          )}
-        </Box>
-        <Typography variant="body1" sx={{ mb: 0.5 }}>
-          {description}
-        </Typography>
-        <Typography variant="body2" sx={{ color: "#666666" }}>
-          {technologies.join(" • ")}
-        </Typography>
-      </Box>
-    </Box>
-  );
-};
-
 const Projects = () => {
   const projects = [
     {
-      year: "Ongoing",
-      logo: "",
-      title: "WeiQLu",
-      description: "A visually engaging portfolio with smooth animations.",
-      technologies: ["React", "Material UI", "Framer Motion"],
-      link: "#",
-    },
-    {
-      year: "Ongoing",
+      year: "2025",
       logo: "",
       title: "CrisisWeb",
       description:
         "Discover and visualize crisis-related webpages through intelligent web crawling and classification. Upload URLs, run a one-class classifier, and explore results in an interactive graph.",
       technologies: ["FastAPI", "SQLAlchemy", "MySQL", "React", "Docker"],
-      link: "#",
+      link: "https://vtechworks.lib.vt.edu/items/38c7ee80-88a4-4a09-98f6-596648145783",
     },
     {
       year: "2024",
@@ -95,7 +19,7 @@ const Projects = () => {
       description:
         "Browse grade distributions and submit anonymous course reviews to make smarter scheduling decisions. Built for fast, real-time searching across 20,000+ class records.",
       technologies: ["React", "Express", "Node.js", "MySQL"],
-      link: "#",
+      link: "",
     },
     {
       year: "2024",
@@ -106,7 +30,84 @@ const Projects = () => {
       technologies: ["MongoDB", "Express", "React", "Node.js"],
       link: "https://workwise-frontend.onrender.com/",
     },
+    {
+      year: "2023",
+      logo: "",
+      title: "HokieTracker",
+      description:
+        "Track course availability and send real-time alerts to help students enroll faster than existing tools.",
+      technologies: ["Python"],
+      link: "",
+    },
   ];
+
+  const ProjectCard = ({
+    year,
+    logo,
+    title,
+    description,
+    technologies,
+    link,
+  }) => {
+    return (
+      <Box sx={{ display: "flex", mb: 3 }}>
+        <Box sx={{ width: "120px", flexShrink: 0, pr: 2 }}>
+          <Typography variant="body2" sx={{ color: "#666666" }}>
+            {year || "Ongoing"}
+          </Typography>
+        </Box>
+        <Box sx={{ flex: 1 }}>
+          <Box sx={{ display: "flex", alignItems: "center", mb: 0.5 }}>
+            {logo && (
+              <Box
+                component="img"
+                src={logo}
+                alt={title}
+                sx={{ width: 32, height: 32, mr: 2, objectFit: "contain" }}
+              />
+            )}
+
+            {link ? (
+              <Link
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  color: "#ffffff",
+                  textDecoration: "none",
+                  "&:hover": { textDecoration: "underline" },
+                }}
+              >
+                <Typography
+                  variant="body1"
+                  component="span"
+                  sx={{ fontWeight: 600, color: "#ffffff" }}
+                >
+                  {title}
+                </Typography>
+                <ArrowOutwardIcon sx={{ fontSize: 16, ml: 0.6 }} />
+              </Link>
+            ) : (
+              <Typography
+                variant="body1"
+                sx={{ fontWeight: 600, color: "#ffffff" }}
+              >
+                {title}
+              </Typography>
+            )}
+          </Box>
+          <Typography variant="body1" sx={{ mb: 0.5 }}>
+            {description}
+          </Typography>
+          <Typography variant="body2" sx={{ color: "#666666" }}>
+            {technologies.join(" • ")}
+          </Typography>
+        </Box>
+      </Box>
+    );
+  };
 
   return (
     <Box sx={{ mb: 6 }}>

@@ -2,7 +2,7 @@ import { Box, Typography, Avatar } from "@mui/material";
 
 const Profile = () => {
   return (
-    <Box sx={{ mb: 6}}>
+    <Box sx={{ mb: 6 }}>
       <Box sx={{ display: "flex", ml: 1, alignItems: "center", mb: 4 }}>
         <Avatar
           src="portrait_image_pixel.png"
@@ -42,7 +42,7 @@ const Profile = () => {
         <Typography variant="body1">
           I'm Wei, a junior studying Computer Science at Virginia Tech. I enjoy
           creating practical, intuitive products that simplify everyday tasks
-          and improve through real user feedback. Always learning.
+          and improve through real user feedback.
         </Typography>
       </Box>
     </Box>
