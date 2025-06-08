@@ -30,15 +30,6 @@ const Projects = () => {
       technologies: ["MongoDB", "Express", "React", "Node.js"],
       link: "https://workwise-frontend.onrender.com/",
     },
-    {
-      year: "2023",
-      logo: "",
-      title: "HokieTracker",
-      description:
-        "Track course availability and send real-time alerts to help students enroll faster than existing tools.",
-      technologies: ["Python"],
-      link: "",
-    },
   ];
 
   const ProjectCard = ({

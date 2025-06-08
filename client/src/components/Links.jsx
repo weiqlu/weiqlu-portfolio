@@ -16,7 +16,7 @@ const Links = () => {
     {
       platform: "Resume",
       username: "@resume",
-      url: "/Resume_6_8_2025.pdf",
+      url: "/weiqlu_resume.pdf",
     },
   ];
 

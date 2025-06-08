@@ -25,7 +25,7 @@ const Experience = () => {
       title: "Student Hiring Admin – VT Dining Services",
       company: "",
       description:
-        "Collaborated within an 8-person team to process and hire over 1500 students each semester. Automated workflows using Microsoft Power Automate, saving up to 5 minutes per applicant and significantly accelerating overall hiring processes.",
+        "Collaborated on a team of 8 to hire 1000+ students for Virginia Tech Dining Services per semester. Improved hiring efficiency by automating tasks with Microsoft Power Automate, reducing data entry time.",
       technologies: ["Teams, Power Automate, Excel"],
       link: "https://dining.vt.edu/",
     },
