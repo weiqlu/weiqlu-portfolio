@@ -35,8 +35,6 @@ const darkTheme = createTheme({
     h2: {
       fontSize: "1.2rem",
       fontWeight: 600,
-      marginBottom: "1rem",
-      marginTop: "2rem",
       color: "#ffffff",
       lineHeight: 1.2,
     },
@@ -68,6 +66,17 @@ const darkTheme = createTheme({
         },
       },
     },
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          color: "#ffffff",
+          textDecoration: "none",
+          "&:hover": {
+            textDecoration: "underline",
+          },
+        },
+      },
+    },
   },
 });
 
@@ -87,7 +96,7 @@ function App() {
             maxWidth: "515px",
             mx: "auto",
             px: 3,
-            pt: 18,
+            pt: { xs: 8, md: 18 },
             pb: 8,
             textAlign: "left",
           }}
