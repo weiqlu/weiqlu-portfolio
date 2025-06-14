@@ -16,7 +16,7 @@ const links = [
   {
     platform: "Resume",
     username: "@resume",
-    url: "/weiqlu_resume.pdf",
+    url: "/Wei_Lu_Resume.pdf",
   },
 ];
 
