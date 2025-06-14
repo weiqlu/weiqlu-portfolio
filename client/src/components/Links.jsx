@@ -88,7 +88,11 @@ const Links = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
-        <Typography variant="h2" component="h2" sx={{ mb: 3 }}>
+        <Typography
+          variant="body1"
+          component="h2"
+          sx={{ fontWeight: 600, color: "#ffffff", mb: 3 }}
+        >
           Links
         </Typography>
       </motion.div>
