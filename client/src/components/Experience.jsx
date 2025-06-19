@@ -6,9 +6,9 @@ const experiences = [
   {
     period: "2025 - Present",
     title: "Software Engineer Intern – Investure",
-    company: "Summer 2025.",
-    description: "",
-    technologies: ["React", "Material UI", "FastAPI", "Python"],
+    company: "",
+    description: "Automating document extraction using LLMs.",
+    technologies: ["Python", "FastAPI", "OpenAI"],
     link: "https://www.investure.com/",
   },
   {
@@ -59,7 +59,7 @@ const Experience = () => {
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
+        transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
       >
         <Typography
           variant="body1"
