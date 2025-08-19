@@ -4,29 +4,29 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    period: "2025 - Present",
+    period: "6/2025 - Present",
     title: "Software Engineer Intern – Investure",
     company: "",
-    description: "Automating document extraction using LLMs.",
-    technologies: ["Python", "FastAPI", "OpenAI"],
+    description: "Automated document extraction using LLMs.",
+    technologies: ["Python", "FastAPI", "OpenAI", "SQL Server", "React"],
     link: "https://www.investure.com/",
   },
   {
-    period: "2024 - Present",
+    period: "5/2024 - Present",
     title: "Undergraduate Teaching Assistant – VT CS",
     company: "",
     description:
-      "Supported 400+ students across two upper-level CS course (Data Structures & Algorithms and Database Management Systems. Held regular office hours and provided one-on-on guidance, resolving ~25 questions weekly.",
+      "Assisted 400+ students in Data Structures & Algorithms (Java) and Database Management Systems. Resolved ~25 questions weekly.",
     technologies: ["Java", "SQL"],
     link: "https://cs.vt.edu/",
   },
   {
-    period: "2024 - Present",
+    period: "8/2024 - 6/2025",
     title: "Student Hiring Admin – VT Dining Services",
     company: "",
     description:
-      "Collaborated on a team of 8 to hire 1000+ students for Virginia Tech Dining Services per semester. Improved hiring efficiency by automating tasks with Microsoft Power Automate, reducing data entry time.",
-    technologies: ["Teams, Power Automate, Excel"],
+      "Supported high-volume student hiring by building automation tools that simplified onboarding tasks. Worked closely with a team to process 1500+ hires per semester.",
+    technologies: ["Excel", "Power Automate", "Power BI"],
     link: "https://dining.vt.edu/",
   },
 ];
