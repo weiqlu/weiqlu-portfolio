@@ -6,11 +6,11 @@ const projects = [
   {
     year: "2025",
     logo: "",
-    title: "CrisisWeb",
+    title: "HokieTracker",
     description:
-      "Discover and visualize crisis-related webpages through intelligent web crawling and classification. Upload URLs, run a one-class classifier, and explore results in an interactive graph.",
-    technologies: ["FastAPI", "SQLAlchemy", "MySQL", "React", "Docker"],
-    link: "https://vtechworks.lib.vt.edu/items/38c7ee80-88a4-4a09-98f6-596648145783",
+      "Monitors Virginia Tech course availability in real time, with push notifications that help students secure high-demand classes minutes faster than paid alternatives.",
+    technologies: ["React", "FastAPI", "PostgreSQL", "Docker"],
+    link: "",
   },
   {
     year: "2024",
@@ -28,7 +28,7 @@ const projects = [
     description:
       "Manage employee records and track user sessions through a full-stack dashboard built with real-time MongoDB integration. Designed for responsive access across devices.",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
-    link: "https://workwise-frontend.onrender.com/",
+    link: "",
   },
 ];
 
@@ -121,7 +121,7 @@ const Projects = () => {
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, ease: "easeOut", delay: 0.4}}
+        transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
       >
         <Typography
           variant="body1"
