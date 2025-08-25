@@ -8,7 +8,7 @@ const projects = [
     logo: "",
     title: "HokieTracker",
     description:
-      "Monitors Virginia Tech course availability in real time, with push notifications that help students secure high-demand classes minutes faster than paid alternatives.",
+      "Automated monitoring of Virginia Tech course availability with real-time updates and push notifications.",
     technologies: ["React", "FastAPI", "PostgreSQL", "Docker"],
     link: "",
   },
@@ -17,7 +17,7 @@ const projects = [
     logo: "",
     title: "EduGrade",
     description:
-      "Browse grade distributions and submit anonymous course reviews to make smarter scheduling decisions. Built for fast, real-time searching across 20,000+ class records.",
+      "Built a platform to view grade distributions and submit course reviews, supporting fast search across 20,000+ records.",
     technologies: ["React", "Express", "Node.js", "MySQL"],
     link: "",
   },
@@ -26,7 +26,7 @@ const projects = [
     logo: "",
     title: "WorkWise",
     description:
-      "Manage employee records and track user sessions through a full-stack dashboard built with real-time MongoDB integration. Designed for responsive access across devices.",
+      "Designed a dashboard to manage employee records with real-time MongoDB integration.",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
     link: "",
   },
