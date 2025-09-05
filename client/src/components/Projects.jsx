@@ -8,7 +8,7 @@ const projects = [
     logo: "",
     title: "HokieTracker",
     description:
-      "Automated monitoring of Virginia Tech course availability with real-time updates and push notifications.",
+      "Automated monitoring of Virginia Tech course availability with real-time push notifications.",
     technologies: ["React", "FastAPI", "PostgreSQL", "Docker"],
     link: "",
   },
@@ -17,7 +17,7 @@ const projects = [
     logo: "",
     title: "EduGrade",
     description:
-      "Built a platform to view grade distributions and submit course reviews, supporting fast search across 20,000+ records.",
+      "Built a platform to view grade distributions and submit course reviews, with search and filtering across 20,000+ records.",
     technologies: ["React", "Express", "Node.js", "MySQL"],
     link: "",
   },

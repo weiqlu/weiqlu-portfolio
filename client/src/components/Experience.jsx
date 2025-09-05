@@ -7,7 +7,7 @@ const experiences = [
     period: "6/2025 - Present",
     title: "Software Engineer Intern – Investure",
     company: "",
-    description: "Automated data extraction from financial documents using LLMs and built a React UI to simplify analyst workflows.",
+    description: "Built tools to automate financial data extraction and a UI to simplify analyst workflows.",
     technologies: ["Python", "FastAPI", "OpenAI", "SQL Server", "React"],
     link: "https://www.investure.com/",
   },
@@ -16,16 +16,16 @@ const experiences = [
     title: "Undergraduate Teaching Assistant – VT CS",
     company: "",
     description:
-      "Helped 400+ students with Data Structures, Algorithms, and Databases through office hours and Q&A support.",
+      "Supported 400+ students in Data Structures & Algorithms and Database Management Systems through office hours and Q&A forums.",
     technologies: ["Java", "SQL"],
     link: "https://cs.vt.edu/",
   },
   {
-    period: "8/2024 - 6/2025",
+    period: "8/2024 - 5/2025",
     title: "Student Hiring Admin – VT Dining Services",
     company: "",
     description:
-      "Automated onboarding tasks and supported high-volume hiring, helping process over 1,500 student hires per semester.",
+      "Automated onboarding tasks and supported high-volume hiring, processing 1,000+ student hires per semester.",
     technologies: ["Excel", "Power Automate", "Power BI"],
     link: "https://dining.vt.edu/",
   },
