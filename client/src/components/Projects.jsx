@@ -10,7 +10,7 @@ const projects = [
     description:
       "Automated monitoring of Virginia Tech course availability with real-time push notifications.",
     technologies: ["React", "FastAPI", "PostgreSQL", "Docker"],
-    link: "",
+    link: "https://hokietracker.dev/",
   },
   {
     year: "2024",
@@ -26,7 +26,7 @@ const projects = [
     logo: "",
     title: "WorkWise",
     description:
-      "Designed a dashboard to manage employee records with real-time MongoDB integration.",
+      "Designed a dashboard to track employee records and manage shift scheduling.",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
     link: "",
   },
