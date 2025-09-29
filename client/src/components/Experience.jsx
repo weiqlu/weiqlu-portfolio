@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    period: "6/2025 - Present",
+    period: "5/2025 - Present",
     title: "Software Engineer Intern – Investure",
     company: "",
     description: "Built tools to automate financial data extraction and a UI to simplify analyst workflows.",
@@ -21,7 +21,7 @@ const experiences = [
     link: "https://cs.vt.edu/",
   },
   {
-    period: "8/2024 - 5/2025",
+    period: "3/2024 - 5/2025",
     title: "Student Hiring Admin – VT Dining Services",
     company: "",
     description:
