@@ -51,7 +51,7 @@ const Profile = () => {
                 gutterBottom
                 sx={{ color: "text.secondary", mb: 0.3 }}
               >
-                Software Developer
+                Software Engineer
               </Typography>
             </motion.div>
             <motion.div
@@ -81,7 +81,7 @@ const Profile = () => {
             </Typography>
             <Typography variant="body1">
               {
-                "I'm Wei, a senior studying Computer Science at Virginia Tech. I enjoy creating practical, intuitive products that simplify everyday tasks and improve with real user feedback."
+                "Welcome! I'm Wei, a Computer Science student at Virginia Tech. I enjoy creating practical, intuitive products that simplify everyday life and improve with real user feedback."
               }
             </Typography>
           </Box>
