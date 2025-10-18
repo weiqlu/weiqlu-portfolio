@@ -13,11 +13,11 @@ const links = [
     username: "@weiqlu",
     url: "https://github.com/weiqlu",
   },
-  // {
-  //   platform: "Resume",
-  //   username: "download",
-  //   url: "/Wei_Lu_Resume.pdf",
-  // },
+  {
+    platform: "Resume",
+    username: "download",
+    url: "/Wei_Lu_Resume.pdf",
+  },
 ];
 
 const sectionVariants = {
