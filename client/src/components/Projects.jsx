@@ -13,6 +13,15 @@ const projects = [
     link: "https://hokietracker.dev/",
   },
   {
+    year: "2025",
+    logo: "",
+    title: "HokieLift",
+    description:
+      "Building a student rideshare platform that coordinates trips between campus and hometowns.",
+    technologies: ["React", "Java", "Spring Boot", "PostgreSQL"],
+    link: "",
+  },
+  {
     year: "2024",
     logo: "",
     title: "EduGrade",

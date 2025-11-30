@@ -7,12 +7,12 @@ const experiences = [
     period: "5/2025 - Present",
     title: "Software Engineer Intern – Investure",
     company: "",
-    description: "Built tools to automate financial data extraction and a UI to simplify analyst workflows.",
+    description: "Developed tools to automate financial data extraction and a UI to simplify analyst workflows.",
     technologies: ["Python", "FastAPI", "OpenAI", "SQL Server", "React"],
     link: "https://www.investure.com/",
   },
   {
-    period: "5/2024 - Present",
+    period: "5/2024 - 12/2025",
     title: "Undergraduate Teaching Assistant – VT CS",
     company: "",
     description:
