@@ -73,7 +73,7 @@ const ProjectCard = ({
 }) => {
   return (
     <Box sx={{ display: "flex", mb: 3 }}>
-      <Box sx={{ width: "120px", flexShrink: 0, pr: 2 }}>
+      <Box sx={{ width: "122px", flexShrink: 0, pr: 2 }}>
         <Typography variant="body2" sx={{ color: "text.tertiary" }}>
           {year || "Ongoing"}
         </Typography>

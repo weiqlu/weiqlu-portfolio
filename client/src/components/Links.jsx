@@ -46,7 +46,7 @@ const LinkItem = ({ platform, username, url }) => {
   const isExternal = url.startsWith("http");
   return (
     <Box sx={{ display: "flex", mb: 2 }}>
-      <Box sx={{ width: "120px", flexShrink: 0, pr: 2 }}>
+      <Box sx={{ width: "122px", flexShrink: 0, pr: 2 }}>
         <Typography variant="body2" sx={{ color: "text.secondary" }}>
           {platform}
         </Typography>

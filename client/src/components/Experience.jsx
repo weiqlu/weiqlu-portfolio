@@ -74,7 +74,7 @@ const Experience = () => {
         {experiences.map((exp, index) => (
           <motion.div key={index} variants={itemVariants}>
             <Box sx={{ display: "flex", mb: 3 }}>
-              <Box sx={{ width: "120px", flexShrink: 0, pr: 2 }}>
+              <Box sx={{ width: "122px", flexShrink: 0, pr: 2 }}>
                 <Typography variant="body2" sx={{ color: "text.tertiary" }}>
                   {exp.period}
                 </Typography>
