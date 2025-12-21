@@ -16,7 +16,7 @@ const links = [
   {
     platform: "Resume",
     username: "download",
-    url: "/Wei_Lu_resume.pdf",
+    url: "/Wei_Lu_Resume.pdf",
   },
 ];
 
@@ -43,7 +43,6 @@ const itemVariants = {
 };
 
 const LinkItem = ({ platform, username, url }) => {
-  const isExternal = url.startsWith("http");
   return (
     <Box sx={{ display: "flex", mb: 2 }}>
       <Box sx={{ width: "122px", flexShrink: 0, pr: 2 }}>
