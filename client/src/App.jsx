@@ -1,5 +1,4 @@
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { Analytics } from "@vercel/analytics/react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Profile from "./components/Profile";
