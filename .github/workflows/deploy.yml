@@ -12,7 +12,6 @@ permissions:
 jobs: 
   deploy: 
     runs-on: ubuntu-latest
-    environment: Production
 
     defaults:
       run:
@@ -45,5 +44,5 @@ jobs:
         run: aws s3 sync dist/ s3://weiqlu.dev --delete
 
       - name: Invalidate Cloudfront
-        run: aws cloudfront create-invalidation --distribution-id ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id EGGWFO7OHLICZ --paths "/*"
          
