@@ -18,7 +18,7 @@ const projects = [
     title: "HokieLift",
     description:
       "Building a student rideshare platform that coordinates trips between campus and hometowns.",
-    technologies: ["React", "Java", "Spring Boot", "PostgreSQL"],
+    technologies: ["React", "Java", "Spring Boot", "Google Maps API"],
     link: "",
   },
   {

@@ -2,18 +2,16 @@
 
 A minimal, dark-themed personal portfolio designed to showcase my experience and projects. Built with performance and simplicity in mind.
 
-[**Take a look → weiqlu.dev**](https://weiqlu.dev)
+[**Take a look! → weiqlu.dev**](https://weiqlu.dev)
 
 ## Tech Stack
 
-- **Frontend:** React, Vite
+- **Frontend:** React + Vite
 - **Styling:** Material UI (MUI), Framer Motion
 - **Infrastructure:** AWS S3, CloudFront
 - **CI/CD:** GitHub Actions
 
-## Local Development
-
-To run the project locally: 
+## Local Development 
 
 ```bash
 cd client
@@ -21,6 +19,14 @@ npm install
 npm run dev
 ```
 
+## Build
+
+```bash
+cd client
+npm run build
+npm run preview
+```
+
 ## Deployment
 
-Commits to the `main` branch trigger a GitHub Actions workflow that builds the site, uploads the static assets to S3, and invalidates CloudFront to serve the latest version.
+Deployed to **AWS S3 + CloudFront** via **GitHub Actions** on pushes to `main`.

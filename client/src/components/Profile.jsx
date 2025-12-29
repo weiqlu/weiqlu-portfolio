@@ -81,7 +81,7 @@ const Profile = () => {
             </Typography>
             <Typography variant="body1">
               {
-                "Hi! I'm Wei, a Computer Science graduate from Virginia Tech. I enjoy creating practical, intuitive products that simplify everyday life and improve with real user feedback."
+                "Hi! I'm Wei, a Virginia Tech CS grad who likes building cool stuff that solves real problems (mostly do full-stack work, plus AI features when they make sense). Feel free to reach out anytime."
               }
             </Typography>
           </Box>
