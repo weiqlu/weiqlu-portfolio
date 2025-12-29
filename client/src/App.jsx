@@ -106,7 +106,6 @@ function App() {
           <Links />
         </Box>
       </Box>
-      <Analytics />
     </ThemeProvider>
   );
 }

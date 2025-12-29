@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    period: "5/2025 - Present",
+    period: "5/2025 - 12/2025",
     title: "Software Engineer Intern – Investure",
     company: "",
     description: "Developed tools to automate financial data extraction and a UI to simplify analyst workflows.",
