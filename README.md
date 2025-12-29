@@ -1,8 +1,19 @@
 # Personal Portfolio
 
-A minimal personal portfolio built with React, Material-UI, and Framer Motion.
+A minimal, dark-themed personal portfolio designed to showcase my experience and projects. Built with performance and simplicity in mind.
 
-## Quick Start
+[**Take a look → weiqlu.dev**](https://weiqlu.dev)
+
+## Tech Stack
+
+- **Frontend:** React, Vite
+- **Styling:** Material UI (MUI), Framer Motion
+- **Infrastructure:** AWS S3, CloudFront
+- **CI/CD:** GitHub Actions
+
+## Local Development
+
+To run the project locally: 
 
 ```bash
 cd client
@@ -10,9 +21,6 @@ npm install
 npm run dev
 ```
 
-## Built With
+## Deployment
 
-- React
-- Material-UI
-- Framer Motion
-- Vite
+Commits to the `main` branch trigger a GitHub Actions workflow that builds the site, uploads the static assets to S3, and invalidates CloudFront to serve the latest version.
