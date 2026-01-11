@@ -6,20 +6,20 @@ const projects = [
   {
     year: "2025",
     logo: "",
-    title: "HokieTracker",
-    description:
-      "Automated monitoring of Virginia Tech course availability with real-time push notifications.",
-    technologies: ["React", "FastAPI", "PostgreSQL", "Docker"],
-    link: "https://hokietracker.dev/",
-  },
-  {
-    year: "2025",
-    logo: "",
     title: "HokieLift",
     description:
       "Building a student rideshare platform that coordinates trips between campus and hometowns.",
     technologies: ["React", "Java", "Spring Boot", "Google Maps API"],
     link: "",
+  },
+  {
+    year: "2025",
+    logo: "",
+    title: "HokieTracker",
+    description:
+      "Automated monitoring of Virginia Tech course availability with real-time push notifications.",
+    technologies: ["React", "FastAPI", "PostgreSQL", "Docker"],
+    link: "https://hokietracker.dev/",
   },
   {
     year: "2024",
@@ -28,15 +28,6 @@ const projects = [
     description:
       "Built a platform to view grade distributions and submit course reviews, with search and filtering across 20,000+ records.",
     technologies: ["React", "Express", "Node.js", "MySQL"],
-    link: "",
-  },
-  {
-    year: "2024",
-    logo: "",
-    title: "WorkWise",
-    description:
-      "Designed a dashboard to track employee records and manage shift scheduling.",
-    technologies: ["MongoDB", "Express", "React", "Node.js"],
     link: "",
   },
 ];
@@ -137,7 +128,7 @@ const Projects = () => {
           component="h2"
           sx={{ fontWeight: 600, color: "#ffffff", mb: 3 }}
         >
-          Side Projects
+          Projects
         </Typography>
       </motion.div>
 

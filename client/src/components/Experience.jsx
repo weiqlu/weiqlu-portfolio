@@ -66,7 +66,7 @@ const Experience = () => {
           component="h2"
           sx={{ fontWeight: 600, color: "#ffffff", mb: 3 }}
         >
-          Work Experience
+          Experience
         </Typography>
       </motion.div>
 
