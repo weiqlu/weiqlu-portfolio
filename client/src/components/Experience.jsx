@@ -4,6 +4,14 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    period: "2/2026 - Present",
+    title: "Software Engineer – Sift",
+    company: "",
+    description: "Observability for the physical world.",
+    technologies: [""],
+    link: "https://www.siftstack.com/",
+  },
+  {
     period: "5/2025 - 12/2025",
     title: "Software Engineer Intern – Investure",
     company: "",
