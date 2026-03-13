@@ -1,6 +1,6 @@
 import { Box, Typography, Avatar } from "@mui/material";
 import { motion } from "framer-motion";
-
+  
 const Profile = () => {
   return (
     <motion.div
@@ -81,7 +81,7 @@ const Profile = () => {
             </Typography>
             <Typography variant="body1">
               {
-                "Hi! I'm Wei, a CS grad from Virginia Tech who likes building cool stuff that solves real problems (mostly full-stack work, plus AI features when they make sense). Feel free to reach out anytime!"
+                "I’m Wei, a developer focused on building clean, functional applications. I'm a fan of full-stack development, experimenting with AI features, and creating tools that actually get used. Let’s chat!"
               }
             </Typography>
           </Box>
