@@ -8,14 +8,15 @@ const experiences = [
     title: "Software Engineer – Sift",
     company: "",
     description: "Observability for the physical world.",
-    technologies: [""],
+    technologies: ["Python", "Rust", "Go", "React"],
     link: "https://www.siftstack.com/",
   },
   {
     period: "5/2025 - 12/2025",
     title: "Software Engineer Intern – Investure",
     company: "",
-    description: "Developed tools to automate financial data extraction and a UI to simplify analyst workflows.",
+    description:
+      "Developed tools to automate financial data extraction and a UI to simplify analyst workflows.",
     technologies: ["Python", "FastAPI", "OpenAI", "SQL Server", "React"],
     link: "https://www.investure.com/",
   },

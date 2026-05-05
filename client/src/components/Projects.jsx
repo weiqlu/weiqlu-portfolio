@@ -4,31 +4,12 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    year: "2025",
+    year: "2026",
     logo: "",
-    title: "HokieLift",
-    description:
-      "Building a student rideshare platform that coordinates trips between campus and hometowns.",
-    technologies: ["React", "Java", "Spring Boot", "Google Maps API"],
-    link: "",
-  },
-  {
-    year: "2025",
-    logo: "",
-    title: "HokieTracker",
-    description:
-      "Automated monitoring of Virginia Tech course availability with real-time push notifications.",
-    technologies: ["React", "FastAPI", "PostgreSQL", "Docker"],
-    link: "https://hokietracker.dev/",
-  },
-  {
-    year: "2024",
-    logo: "",
-    title: "EduGrade",
-    description:
-      "Built a platform to view grade distributions and submit course reviews, with search and filtering across 20,000+ records.",
-    technologies: ["React", "Express", "Node.js", "MySQL"],
-    link: "",
+    title: "Sift Rover",
+    description: "A small RC car running on an ESP32.",
+    technologies: ["Rust", "ESP32", "Embassy"],
+    link: "https://github.com/weiqlu/sift-rover",
   },
 ];
 
